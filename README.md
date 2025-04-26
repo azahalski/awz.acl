@@ -1,6 +1,8 @@
 # AWZ: Права доступа (awz.acl)
 
 ### [Установка модуля](https://github.com/azahalski/awz.acl/tree/main/docs/install.md)
+### [Добавление прав доступа через конструктор](https://github.com/azahalski/awz.acl/tree/main/docs/right.md)
+### [Архитектура модуля](https://github.com/azahalski/awz.acl/tree/main/docs/arch.md)
 
 ### Документация
 
