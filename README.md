@@ -4,9 +4,6 @@
 ### [Добавление прав доступа через конструктор](https://github.com/azahalski/awz.acl/tree/main/docs/right.md)
 ### [Архитектура модуля](https://github.com/azahalski/awz.acl/tree/main/docs/arch.md)
 
-### Документация
-
-
 <!-- desc-start -->
 
 Модуль содержит Api для организации ролевой модели прав доступа.
