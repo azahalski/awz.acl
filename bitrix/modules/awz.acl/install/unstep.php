@@ -1,3 +1,7 @@
+<?
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
+    die();
+}?>
 <form action="<?= $APPLICATION->GetCurPage()?>">
 	<?=bitrix_sessid_post()?>
     <input type="hidden" name="lang" value="<?=LANG?>">

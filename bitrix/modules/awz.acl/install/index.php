@@ -9,7 +9,7 @@ Loc::loadMessages(__FILE__);
 
 class awz_acl extends CModule
 {
-	var $MODULE_ID = "awz.acl";
+	var $MODULE_ID;
 	var $MODULE_VERSION;
 	var $MODULE_VERSION_DATE;
 	var $MODULE_NAME;
@@ -58,13 +58,25 @@ class awz_acl extends CModule
     function DoUninstall()
     {
         global $APPLICATION, $step;
-		$this->UnInstallDB();
-		$this->UnInstallFiles();
-		$this->UnInstallEvents();
-		$this->deleteAgents();
 
-		ModuleManager::UnRegisterModule($this->MODULE_ID);
-		return true;
+        $step = intval($step);
+        if($step < 2) {
+            $APPLICATION->IncludeAdminFile(
+                Loc::getMessage('AWZ_ACL_INSTALL_TITLE'),
+                $_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/'. $this->MODULE_ID .'/install/unstep.php'
+            );
+        }
+        elseif($step == 2) {
+            if($_REQUEST['save'] != 'Y' && !isset($_REQUEST['save'])) {
+                $this->UnInstallDB();
+            }
+            $this->UnInstallFiles();
+            $this->UnInstallEvents();
+            $this->deleteAgents();
+
+            ModuleManager::UnRegisterModule($this->MODULE_ID);
+            return true;
+        }
 		
     }
 
