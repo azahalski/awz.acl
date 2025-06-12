@@ -20,7 +20,7 @@ class awz_acl extends CModule
         $arModuleVersion = array();
         include(__DIR__.'/version.php');
 
-        $dirs = explode('/',dirname(__DIR__ . '../'));
+        $dirs = explode(DIRECTORY_SEPARATOR, dirname(__DIR__, 1));
         $this->MODULE_ID = array_pop($dirs);
         unset($dirs);
 
@@ -47,11 +47,10 @@ class awz_acl extends CModule
 
         ModuleManager::RegisterModule($this->MODULE_ID);
 
-        $filePath = dirname(__DIR__ . '/../../').'/options.php';
-
-        if(file_exists($filePath)){
-            LocalRedirect('/bitrix/admin/settings.php?lang='.LANG.'&mid='.$this->MODULE_ID.'&mid_menu=1');
-        }
+        $APPLICATION->IncludeAdminFile(
+            Loc::getMessage("AWZ_ACL_MODULE_NAME"),
+            $_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/'. $this->MODULE_ID .'/install/solution.php'
+        );
 
         return true;
     }
