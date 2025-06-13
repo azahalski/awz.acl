@@ -74,6 +74,10 @@ class awz_acl extends CModule
             $this->UnInstallEvents();
             $this->deleteAgents();
 
+            if($_REQUEST['saveopts'] != 'Y' && !isset($_REQUEST['saveopts'])) {
+                \Bitrix\Main\Config\Option::delete($this->MODULE_ID);
+            }
+
             ModuleManager::UnRegisterModule($this->MODULE_ID);
             return true;
         }
@@ -162,6 +166,7 @@ class awz_acl extends CModule
     }
 
     function deleteAgents() {
+        CAgent::RemoveModuleAgents("sale");
         return true;
     }
 
