@@ -131,11 +131,11 @@ class awz_acl extends CModule
     {
         $eventManager = EventManager::getInstance();
         $eventManager->unRegisterEventHandler(
-            'sale', 'OnAfterUserUpdate',
+            'main', 'OnAfterUserUpdate',
             $this->MODULE_ID, '\\Awz\\Acl\\Access\\Handlers', 'OnAfterUserUpdate'
         );
         $eventManager->unRegisterEventHandler(
-            'sale', 'OnAfterUserAdd',
+            'main', 'OnAfterUserAdd',
             $this->MODULE_ID, '\\Awz\\Acl\\Access\\Handlers', 'OnAfterUserUpdate'
         );
         return true;
