@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "requestId": "awz.acl-1754654829",
+  "data": {
+    "vulnerabilities": [],
+    "summary": "Модуль awz.acl просканирован. Уязвимости не обнаружены. В модуле реализована система управления правами доступа (ACL) с правильной настройкой prefilters (Authentication, HttpMethod, Csrf), использованием AccessController для проверки прав, SQL Helper для работы с БД и правильным экранированием данных (htmlspecialcharsbx, CUtil::PhpToJSObject).",
+    "scannedFiles": 47,
+    "riskLevel": "none",
+    "auditedFiles": [
+      "install/components/acl.config.permissions/ajax.php",
+      "lib/access/model/usermodel.php",
+      "options.php",
+      "lib/access/handlers.php",
+      "lib/access/accesscontroller.php",
+      "lib/access/include/moduleright.php",
+      "install/index.php"
+    ],
+    "journal": []
+  }
+}
