@@ -1,0 +1,362 @@
+{
+ "art-assign": {
+  "bytes": 153678,
+  "file": "media/desc-art--awz-acl-assign.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "3172c8190c2d7d9fca6c1c1fc51da6015828be683e28fb7894143cfa5edb509e",
+  "source_bytes": 153678,
+  "url": "https://zahalski.dev/upload/awz.load.ai/kxxjf62rwp.png",
+  "w": 1024
+ },
+ "art-hero": {
+  "bytes": 145153,
+  "file": "media/desc-art--awz-acl-hero.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "763dca6c585d6a96a48a5481afe708fe6d810c80a28c5591f3bc7b4dda27a676",
+  "source_bytes": 145153,
+  "url": "https://zahalski.dev/upload/awz.load.ai/4mww3b7uo1.png",
+  "w": 1024
+ },
+ "art-roles": {
+  "bytes": 125014,
+  "file": "media/desc-art--awz-acl-roles.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "9a47036097594b81cdfc82139c459563293e2c22a02257f589d87d745ebadee8",
+  "source_bytes": 125014,
+  "url": "https://zahalski.dev/upload/awz.load.ai/2abn676ck0.png",
+  "w": 1024
+ },
+ "art-settings": {
+  "bytes": 190259,
+  "file": "media/desc-art--awz-acl-settings.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "b3f4400b16a906cb25e7ba8da2d29f051e33eaca4fbd10eb138f786025c999cf",
+  "source_bytes": 190259,
+  "url": "https://zahalski.dev/upload/awz.load.ai/oo891hyqod.png",
+  "w": 1024
+ },
+ "art2-assign": {
+  "bytes": 153678,
+  "file": "rehost-acl-desc-art--awz-acl-assign.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "3172c8190c2d7d9fca6c1c1fc51da6015828be683e28fb7894143cfa5edb509e",
+  "source_bytes": 153678,
+  "url": "https://zahalski.dev/upload/awz.load.ai/kxxjf62rwp.png",
+  "w": 1024
+ },
+ "art2-hero": {
+  "bytes": 145153,
+  "file": "rehost-acl-desc-art--awz-acl-hero.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "763dca6c585d6a96a48a5481afe708fe6d810c80a28c5591f3bc7b4dda27a676",
+  "source_bytes": 145153,
+  "url": "https://zahalski.dev/upload/awz.load.ai/4mww3b7uo1.png",
+  "w": 1024
+ },
+ "art2-roles": {
+  "bytes": 125014,
+  "file": "rehost-acl-desc-art--awz-acl-roles.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "9a47036097594b81cdfc82139c459563293e2c22a02257f589d87d745ebadee8",
+  "source_bytes": 125014,
+  "url": "https://zahalski.dev/upload/awz.load.ai/2abn676ck0.png",
+  "w": 1024
+ },
+ "art2-settings": {
+  "bytes": 190259,
+  "file": "rehost-acl-desc-art--awz-acl-settings.png",
+  "h": 572,
+  "mime": "image/png",
+  "sha256": "b3f4400b16a906cb25e7ba8da2d29f051e33eaca4fbd10eb138f786025c999cf",
+  "source_bytes": 190259,
+  "url": "https://zahalski.dev/upload/awz.load.ai/oo891hyqod.png",
+  "w": 1024
+ },
+ "ico-191bd4": {
+  "bytes": 22785,
+  "file": "rehost-acl-ico-acl--20261122-145815-191bd4.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "c715ab7c05664fa86a45ab15db1356fefed2049b3622e941da0e957641e58f61",
+  "source_bytes": 22785,
+  "url": "https://zahalski.dev/upload/awz.load.ai/fy1c6ylbr9.png",
+  "w": 270
+ },
+ "ico-22ea21": {
+  "bytes": 24875,
+  "file": "rehost-acl-ico-acl--20261122-145815-22ea21.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "c06c4a1d2bb77da172dcfa3162d26a6383d2bc02622a76d63f98ef8d7abdc537",
+  "source_bytes": 24875,
+  "url": "https://zahalski.dev/upload/awz.load.ai/422xl4xzhq.png",
+  "w": 270
+ },
+ "ico-30d90a": {
+  "bytes": 20857,
+  "file": "rehost-acl-ico-acl--20261122-145815-30d90a.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "3a9b2499813b23b6f03ef596cccf6e5f0513366087426a43743bdac948cf02c3",
+  "source_bytes": 20857,
+  "url": "https://zahalski.dev/upload/awz.load.ai/i6u779p00a.png",
+  "w": 270
+ },
+ "ico-3173d5": {
+  "bytes": 31874,
+  "file": "rehost-acl-ico-acl--20261122-145815-3173d5.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "40bd46a5b3c96cc6c884712489690562c818c072c0b7bea37dc66d0e292d7b9f",
+  "source_bytes": 31874,
+  "url": "https://zahalski.dev/upload/awz.load.ai/jm7jy0i4v1.png",
+  "w": 270
+ },
+ "ico-3a7c46": {
+  "bytes": 34577,
+  "file": "rehost-acl-ico-acl--20261122-145815-3a7c46.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "2291527cd79bac2a2d236392565c1174026e962b3599a7e7aa15f0785eb78b22",
+  "source_bytes": 34577,
+  "url": "https://zahalski.dev/upload/awz.load.ai/rciz8tpmwo.png",
+  "w": 270
+ },
+ "ico-44b762": {
+  "bytes": 20151,
+  "file": "rehost-acl-ico-acl--20261122-145815-44b762.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "9591ed99d5ef47534c2f7833b49362ddd27be1c0ecc6b293ba7e5865eed3a6e1",
+  "source_bytes": 20151,
+  "url": "https://zahalski.dev/upload/awz.load.ai/y14q7waj3p.png",
+  "w": 270
+ },
+ "ico-537f4f": {
+  "bytes": 21639,
+  "file": "rehost-acl-ico-acl--20261122-145815-537f4f.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "675d2af5d0bb626e16d1ff79436307dee98d20116b90c14b49e3e773ec00be9e",
+  "source_bytes": 21639,
+  "url": "https://zahalski.dev/upload/awz.load.ai/2e4n067kk9.png",
+  "w": 270
+ },
+ "ico-92b16b": {
+  "bytes": 34026,
+  "file": "rehost-acl-ico-acl--20261122-145815-92b16b.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "32985bacf185d4ba19ecf67ca8afbbfcb4a669b3e706c2233ff4a3cba5ef3e28",
+  "source_bytes": 34026,
+  "url": "https://zahalski.dev/upload/awz.load.ai/3wwdwuat2m.png",
+  "w": 270
+ },
+ "ico-b67086": {
+  "bytes": 42842,
+  "file": "rehost-acl-ico-acl--20261122-145815-b67086.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "37bc1cc4a4e7ab3da237da87b55fb1b9099902387f601899df6d498295fb3497",
+  "source_bytes": 42842,
+  "url": "https://zahalski.dev/upload/awz.load.ai/6tlij2u3iw.png",
+  "w": 270
+ },
+ "ico-c-search": {
+  "bytes": 26560,
+  "file": "media/ico--c-search.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "2017dfc4fda18793445b206a76058c29594c11b59fd40fc98f3659715a170c55",
+  "source_bytes": 26560,
+  "url": "https://zahalski.dev/upload/awz.load.ai/annzau80ud.png",
+  "w": 270
+ },
+ "ico-code": {
+  "bytes": 24875,
+  "file": "media/ico--code.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "c06c4a1d2bb77da172dcfa3162d26a6383d2bc02622a76d63f98ef8d7abdc537",
+  "source_bytes": 24875,
+  "url": "https://zahalski.dev/upload/awz.load.ai/422xl4xzhq.png",
+  "w": 270
+ },
+ "ico-gear": {
+  "bytes": 31874,
+  "file": "media/ico--gear.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "40bd46a5b3c96cc6c884712489690562c818c072c0b7bea37dc66d0e292d7b9f",
+  "source_bytes": 31874,
+  "url": "https://zahalski.dev/upload/awz.load.ai/jm7jy0i4v1.png",
+  "w": 270
+ },
+ "ico-key": {
+  "bytes": 20857,
+  "file": "media/ico--key.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "3a9b2499813b23b6f03ef596cccf6e5f0513366087426a43743bdac948cf02c3",
+  "source_bytes": 20857,
+  "url": "https://zahalski.dev/upload/awz.load.ai/i6u779p00a.png",
+  "w": 270
+ },
+ "ico-lock": {
+  "bytes": 21639,
+  "file": "media/ico--lock.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "675d2af5d0bb626e16d1ff79436307dee98d20116b90c14b49e3e773ec00be9e",
+  "source_bytes": 21639,
+  "url": "https://zahalski.dev/upload/awz.load.ai/2e4n067kk9.png",
+  "w": 270
+ },
+ "ico-shield": {
+  "bytes": 42842,
+  "file": "media/ico--shield.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "37bc1cc4a4e7ab3da237da87b55fb1b9099902387f601899df6d498295fb3497",
+  "source_bytes": 42842,
+  "url": "https://zahalski.dev/upload/awz.load.ai/6tlij2u3iw.png",
+  "w": 270
+ },
+ "ico-sync": {
+  "bytes": 34026,
+  "file": "media/ico--sync.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "32985bacf185d4ba19ecf67ca8afbbfcb4a669b3e706c2233ff4a3cba5ef3e28",
+  "source_bytes": 34026,
+  "url": "https://zahalski.dev/upload/awz.load.ai/3wwdwuat2m.png",
+  "w": 270
+ },
+ "ico-toggle": {
+  "bytes": 20151,
+  "file": "media/ico--toggle.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "9591ed99d5ef47534c2f7833b49362ddd27be1c0ecc6b293ba7e5865eed3a6e1",
+  "source_bytes": 20151,
+  "url": "https://zahalski.dev/upload/awz.load.ai/y14q7waj3p.png",
+  "w": 270
+ },
+ "ico-userok": {
+  "bytes": 22785,
+  "file": "media/ico--userok.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "c715ab7c05664fa86a45ab15db1356fefed2049b3622e941da0e957641e58f61",
+  "source_bytes": 22785,
+  "url": "https://zahalski.dev/upload/awz.load.ai/fy1c6ylbr9.png",
+  "w": 270
+ },
+ "ico-users": {
+  "bytes": 34577,
+  "file": "media/ico--users.png",
+  "h": 270,
+  "mime": "image/png",
+  "sha256": "2291527cd79bac2a2d236392565c1174026e962b3599a7e7aa15f0785eb78b22",
+  "source_bytes": 34577,
+  "url": "https://zahalski.dev/upload/awz.load.ai/rciz8tpmwo.png",
+  "w": 270
+ },
+ "shot-001-roli": {
+  "bytes": 87457,
+  "file": "media/desc-shot--roles.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "01e60872f9d3934ad9a9c9d3e6f16a362bb2517b284b029466f4da7293f2da1f",
+  "source_bytes": 87457,
+  "url": "https://zahalski.dev/upload/awz.load.ai/ovan9svx2k.png",
+  "w": 1024
+ },
+ "shot-002-prava": {
+  "bytes": 156980,
+  "file": "media/desc-shot--members.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "90a4530b709d4a9f55049990101a4addb2ebb5b54f789192bd1e6029bb646dbb",
+  "source_bytes": 156980,
+  "url": "https://zahalski.dev/upload/awz.load.ai/7pr6bfxnak.png",
+  "w": 1024
+ },
+ "shot-003-nastroyki": {
+  "bytes": 176166,
+  "file": "media/desc-shot--settings.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "1937c03ed548594257b99f10080a9ce51bb14583d51d5800855ed084997780fb",
+  "source_bytes": 176166,
+  "url": "https://zahalski.dev/upload/awz.load.ai/3sub730o2c.png",
+  "w": 1024
+ },
+ "shot2-nastroyki": {
+  "bytes": 176166,
+  "file": "acl-shot-awz-acl--20261122-145815-d8fd77.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "1937c03ed548594257b99f10080a9ce51bb14583d51d5800855ed084997780fb",
+  "source_bytes": 176166,
+  "url": "https://zahalski.dev/upload/awz.load.ai/3sub730o2c.png",
+  "w": 1024
+ },
+ "shot2-prava": {
+  "bytes": 156980,
+  "file": "acl-shot-awz-acl--20261122-145815-4ce297.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "90a4530b709d4a9f55049990101a4addb2ebb5b54f789192bd1e6029bb646dbb",
+  "source_bytes": 156980,
+  "url": "https://zahalski.dev/upload/awz.load.ai/7pr6bfxnak.png",
+  "w": 1024
+ },
+ "shot2-roli": {
+  "bytes": 87457,
+  "file": "acl-shot-awz-acl--20261122-145815-4be698.png",
+  "h": 714,
+  "mime": "image/png",
+  "sha256": "01e60872f9d3934ad9a9c9d3e6f16a362bb2517b284b029466f4da7293f2da1f",
+  "source_bytes": 87457,
+  "url": "https://zahalski.dev/upload/awz.load.ai/ovan9svx2k.png",
+  "w": 1024
+ },
+ "spacer": {
+  "bytes": 71,
+  "file": "media/desc-spacer.png",
+  "h": 10,
+  "mime": "image/png",
+  "sha256": "9058a5a9be40d9aac111e1f43126aec5d6e8c5d1a9ee69ce5976a87233b9a3b0",
+  "source_bytes": 71,
+  "url": "https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png",
+  "w": 10
+ },
+ "spacer-wide": {
+  "bytes": 86,
+  "file": "media/desc-spacer-wide.png",
+  "h": 10,
+  "mime": "image/png",
+  "sha256": "7364eedc2219e6ffb13b405634797d7fb15d665b500243062bff5038a7a5e6a9",
+  "source_bytes": 86,
+  "url": "https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png",
+  "w": 150
+ },
+ "yellow-line": {
+  "bytes": 114,
+  "file": "media/desc-yellow-line.png",
+  "h": 9,
+  "mime": "image/png",
+  "sha256": "3508aaa9fe4b87491422105c6a9ea59a5503b0a8d1d8d68c0a245a5b4a6c5ea7",
+  "source_bytes": 114,
+  "url": "https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png",
+  "w": 225
+ }
+}

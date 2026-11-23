@@ -1,0 +1,11 @@
+[size=18pt][b]Установка[/b][/size]
+[IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG]
+
+[b]Требования:[/b]
+• Модуль main 24.0.0 или выше
+• PHP 8.2+
+
+Установка модуля стандартная - через систему обновлений 1С-Bitrix.
+
+[b]Документация[/b] - https://zahalski.dev/modules/awz.acl/
+[b]GitHub[/b] - https://github.com/azahalski/awz.acl

@@ -1,0 +1,81 @@
+[center][size=18pt][b]AWZ: Права доступа[/b][/size]
+[IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG][/center]
+[center]
+[TABLE][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][TH][b]Ролевая модель прав доступа для ваших модулей: роли, привилегии и проверка доступа одним вызовом AccessController::can().[/b][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][/TR][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TH][/TR][TR][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][TH][color=#8b93b3]Служебный модуль awz.*: работает на штатном фреймворке Bitrix\Main\Access (D7), не трогает ваш options.php и классы в /lib/.[/color][/TH][TH][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=150 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/5bgfxic7b1.png[/IMG][/TH][/TR][/TABLE][/center]
+[center]
+[TABLE][TR][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/2e4n067kk9.png[/IMG][/center]
+
+[center][b]Роли и привилегии[/b][/center][color=#8b93b3]готовые таблицы awz_acl_* и скрипты для MySQL и PostgreSQL.[/color][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/y14q7waj3p.png[/IMG][/center]
+
+[center][b]Штатный интерфейс[/b][/center][color=#8b93b3]управление ролями на ui.accessrights, страница открывается в SidePanel.[/color][/TH][/TR][TR][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][/TR][TR][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/jm7jy0i4v1.png[/IMG][/center]
+
+[center][b]Генератор прав[/b][/center][color=#8b93b3]секции и правила собираются в awz.admin - классы и словари создаются автоматически.[/color][/TH][TH][center][IMG WIDTH=10 HEIGHT=20]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/center][/TH][TH][center][IMG WIDTH=72 HEIGHT=72]https://zahalski.dev/upload/awz.load.ai/3wwdwuat2m.png[/IMG][/center]
+
+[center][b]Синхронизация прав[/b][/center][color=#8b93b3]события main дозаписывают access-коды пользователя в b_user_access.[/color][/TH][/TR][/TABLE]
+[/center]
+
+[center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/4mww3b7uo1.png[/IMG][/center]
+
+[center][size=18pt][b]Как работает ролевая модель[/b][/size][/center]
+
+[TABLE]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/2e4n067kk9.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Роль[/b] объединяет набор прав и полномочий для конкретных задач - например, «Менеджер», «Бухгалтер», «Администратор»[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/fy1c6ylbr9.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Пользователь[/b] получает одну или несколько ролей в зависимости от своих обязанностей[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/i6u779p00a.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Права (разрешения)[/b] определяют, какие действия доступны над ресурсами: чтение, создание, редактирование, удаление, запуск функций[/TD][/TR]
+[/TABLE]
+
+[center][size=18pt][b]Что это даёт[/b][/size][/center]
+
+[TABLE]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/rciz8tpmwo.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Проще администрировать:[/b] при смене должности или уходе сотрудника достаточно изменить или отозвать роль, а не настраивать десятки прав вручную[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/6tlij2u3iw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Выше безопасность:[/b] реализует принцип наименьших привилегий - каждый видит и делает только то, что нужно для работы[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/annzau80ud.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD][b]Прозрачнее аудит:[/b] проще проверить, кто и к каким данным имеет доступ[/TD][/TR]
+[/TABLE]
+
+
+[center][size=18pt][b]Основные возможности модуля[/b][/size]
+[IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG][/center]
+
+[center][size=13pt][b]1. Ролевая модель доступа[/b][/size][/center]
+
+[TABLE]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/2e4n067kk9.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Данные хранятся в трёх таблицах [b]awz_acl_role[/b], [b]awz_acl_role_relation[/b] и [b]awz_acl_permission[/b]; скрипты установки есть и для MySQL, и для PostgreSQL[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/i6u779p00a.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Итоговое значение привилегии берётся как максимум по всем ролям участника - дополнительная роль никогда не урезает уже выданный доступ[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/6tlij2u3iw.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Раздельные права на просмотр/редактирование привилегий ([b]isViewRight[/b] / [b]isEditRight[/b]) и настроек ([b]isViewSettings[/b] / [b]isEditSettings[/b])[/TD][/TR]
+[/TABLE]
+
+[center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/2abn676ck0.png[/IMG][/center]
+
+[center][size=13pt][b]2. Назначение прав[/b][/size][/center]
+
+[TABLE]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/rciz8tpmwo.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Роль назначается пользователю, группе пользователей, отделу структуры или рабочей группе (проекту)[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/annzau80ud.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Выбор участников через [b]ui.entity-selector[/b]: провайдеры [b]awzacl-user[/b] и [b]awzacl-group[/b], поиск по имени, фамилии, логину и названию группы[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/y14q7waj3p.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Компонент [b]awz:acl.config.permissions[/b] строит управление ролями на штатном [b]ui.accessrights[/b]; страница открывается из настроек модуля в SidePanel[/TD][/TR]
+[/TABLE]
+
+[center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/kxxjf62rwp.png[/IMG][/center]
+
+[center][size=13pt][b]3. Свои правила и код[/b][/size][/center]
+
+[TABLE]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/422xl4xzhq.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Фабрика [b]Awz\Acl\Access\Permission\RuleFactory[/b] ищет класс правила по коду действия: сначала сгенерированные [b]Custom\Rules[/b], затем системные [b]Permission\Rules[/b][/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/jm7jy0i4v1.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]«Генератор прав доступа» модуля [b]awz.admin[/b]: добавляете секции и правила - классы и словари создаются автоматически, остаётся дописать логику проверки[/TD][/TR]
+[TR][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][IMG WIDTH=44 HEIGHT=44]https://zahalski.dev/upload/awz.load.ai/fy1c6ylbr9.png[/IMG][/TD][TD][IMG WIDTH=10 HEIGHT=10]https://zahalski.dev/upload/awz.load.ai/4zhdkguvu3.png[/IMG][/TD][TD]Сгенерированные классы лежат в [b]lib/access/custom/rules/[/b], группировка привилегий - константами [b]SECTION_*[/b] в [b]ComponentConfig[/b]: обновления модуля не тронут ваш options.php и классы в /lib/[/TD][/TR]
+[/TABLE]
+
+[center][IMG WIDTH=800 HEIGHT=447]https://zahalski.dev/upload/awz.load.ai/oo891hyqod.png[/IMG][/center]
+
+
+[size=18pt][b]Программный интерфейс[/b][/size]
+[IMG WIDTH=225 HEIGHT=9]https://zahalski.dev/upload/awz.load.ai/lv1iyow5dj.png[/IMG]
+[b]Все проверки идут через Awz\\Acl\\Access\\AccessController:[/b]
+[LIST][*]AccessController::can($userId = 0, $action, $itemId = null, $params = null) - универсальная проверка права; при пустом $userId проверяется текущий пользователь, $itemId и $params передаются в правило;[*]isViewRight() / isEditRight() - разрешены ли просмотр и редактирование привилегий модуля;[*]isViewSettings() / isEditSettings() - разрешены ли просмотр и редактирование настроек модуля.[/LIST]
+
+[b]Пример:[/b]
+[code]use Awz\\Acl\\Access\\AccessController;
+use Awz\\Acl\\Access\\Custom\\ActionDictionary;
+
+if (AccessController::can(0, ActionDictionary::ACTION_DILER_LK_VIEW, 1, 'test')) {
+    // проверка пройдена
+}[/code]
